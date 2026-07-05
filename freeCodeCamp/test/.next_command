@@ -94,3 +94,4 @@ ls --color=auto
 lss
 cd src
 pwd
+ls --color=auto
