@@ -92,3 +92,4 @@ __vsc_prompt_cmd_original
 clear
 ls --color=auto
 lss
+cd src
