@@ -246,3 +246,6 @@ touch client/assets/fonts/lato-bold.ttf
 touch client/assets/fonts/lato-light.ttf
 find
 rm --help
+ls --color=auto
+rmdir -r fonts
+rm -r fonts
