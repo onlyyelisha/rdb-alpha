@@ -251,3 +251,4 @@ rmdir -r fonts
 rm -r fonts
 find
 ls --color=auto
+touch package.json
