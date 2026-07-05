@@ -190,3 +190,4 @@ cd ..
 ls --color=auto
 cd client/assets/images
 cd ../../..
+cd images
