@@ -204,3 +204,7 @@ mv images/footer.jpeg client/assets/images
 find
 ls --color=auto
 rmdir images
+rm website/images
+rm website/images/background.jpg
+cd website/images
+rm images/background.jpg
