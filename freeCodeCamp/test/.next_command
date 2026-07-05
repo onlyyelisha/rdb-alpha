@@ -184,3 +184,9 @@ rm -r image
 mkdir images
 cd images
 touch background.jpg
+cd ..
+cd ..
+cd ..
+ls --color=auto
+cd client/assets/images
+cd ../../..
