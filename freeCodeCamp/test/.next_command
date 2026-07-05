@@ -233,3 +233,12 @@ mkdir
 mkdir roboto-bold.woff client/assets/fonts
 touch client/assets/fonts/roboto-bold.woff
 touch client/assets/fonts/roboto-light.woff
+find
+find -name client
+find -name client/assets/fonts
+find
+find fonts
+find c
+find client
+find -wholename client/assets/fonts
+find client/assets/fonts
