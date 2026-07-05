@@ -183,3 +183,4 @@ rm image
 rm -r image
 mkdir images
 cd images
+touch background.jpg
