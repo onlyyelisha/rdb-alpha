@@ -210,3 +210,6 @@ cd website/images
 rm images/background.jpg
 rmdir images
 ls --color=auto
+find -name assets
+mkdir icons client/assets
+mkdir client/assets/icons
