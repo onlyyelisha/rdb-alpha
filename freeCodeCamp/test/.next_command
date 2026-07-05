@@ -178,3 +178,7 @@ find
 cd client
 mkdir assets
 cd assets
+mkdir image
+rm image
+rm -r image
+mkdir images
