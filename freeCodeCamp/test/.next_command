@@ -249,3 +249,5 @@ rm --help
 ls --color=auto
 rmdir -r fonts
 rm -r fonts
+find
+ls --color=auto
