@@ -164,3 +164,6 @@ mkdir client
 mkdir client/src
 mv index.html client/src
 find
+cd src
+mv index.js
+mv index.js client/src
