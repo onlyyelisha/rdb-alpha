@@ -280,3 +280,4 @@ find website-boilerplatefind website-boilerplate
 clear
 echo goodbye termina
 echo goodbye terminal
+exit
