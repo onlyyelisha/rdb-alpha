@@ -182,3 +182,4 @@ mkdir image
 rm image
 rm -r image
 mkdir images
+cd images
