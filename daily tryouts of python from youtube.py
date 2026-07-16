@@ -102,3 +102,19 @@
 # )  # we put this so that the addons can be verticall not horizontal
 #
 # print(df)
+# day six  banking teclado
+greeting = "Hello, world"
+greeting += "!"
+print(greeting)
+us_name = input("C'mon enter your  name below\n:").strip()
+print(f"Hello ,{us_name.title()}!\n I am 20 years old")
+title = "Joker"
+director = "Todd Phillips"
+release_year = 2019
+print(f"{title} ({release_year}),directed by {director}")
+# from the youtube teacher
+
+import trimesh
+
+box = trimesh.creation.box(extents=[0.22, 0.9, 0.12])
+box.show()
