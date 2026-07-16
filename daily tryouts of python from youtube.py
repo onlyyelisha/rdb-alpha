@@ -117,4 +117,6 @@ print(f"{title} ({release_year}),directed by {director}")
 import trimesh
 
 box = trimesh.creation.box(extents=[0.22, 0.9, 0.12])
+sphere = trimesh.creation.icosphere(3.290)
 box.show()
+sphere.show()
