@@ -120,3 +120,22 @@ box = trimesh.creation.box(extents=[0.22, 0.9, 0.12])
 sphere = trimesh.creation.icosphere(3.290)
 box.show()
 sphere.show()
+# making a fibbinacci python script
+num = int(input("Enter the number: "))
+a, b = 0, 1
+print(f"{a} {b}", end=" ")
+for i in range(num - 2):
+    c = a + b
+    print(c, end=" ")
+    a, b = b, c
+
+
+# intermediate level
+def fib_iterative(num_b):
+    a, b = 0, 1
+    for i in range(1, num_b + 1):
+        a, b = b, a + b
+        print(f"{i:02}=>{b:02}", end=",\n")
+
+
+fib_iterative(9)
