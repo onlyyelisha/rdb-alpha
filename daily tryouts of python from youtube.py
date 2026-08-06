@@ -103,6 +103,10 @@
 #
 # print(df)
 # day six  banking teclado
+from re import findall
+
+from numpy import char
+
 greeting = "Hello, world"
 greeting += "!"
 print(greeting)
@@ -139,3 +143,73 @@ def fib_iterative(num_b):
 
 
 fib_iterative(9)
+# making a string integer cleaner using regex
+import re
+
+user_id = "haluwa758"
+
+# saving the different data types as lists in variables
+user_id_numbers = findall(r"\d", user_id)
+user_id_letters = findall(r"[a-zA-Z]", user_id)
+# the output  as it has been put in the variables
+print(user_id_numbers)
+print(user_id_letters)
+# making the output strings again from list format
+user_id_letters_str = " ".join(user_id_letters)
+user_id_numbers_str = " ".join(user_id_numbers)
+# cleaning text with numbers using without using regex
+national_id = "husnaa20070807"
+# checking for numbers in the given text
+check_numbers = any(numeral.isdigit() for numeral in national_id)
+print(check_numbers)#returns true or false
+# # making a string integer cleaner using regex
+# import re
+#
+# user_id = "haluwa758"
+#
+# # saving the different data types as lists in variables
+# user_id_numbers = findall(r"\d", user_id)
+# user_id_letters = findall(r"[a-zA-Z]", user_id)
+# # the output  as it has been put in the variables
+# print(user_id_numbers)
+# print(user_id_letters)
+# # making the output strings again from list format
+# user_id_letters_str = " ".join(user_id_letters)
+# user_id_numbers_str = " ".join(user_id_numbers)
+#debugging to understanding the following code
+# Check if string has numbers
+# text = "user123"
+# has_numbers = any(char.isdigit() for char in text)
+# print(has_numbers)  # True
+##the above line checks if there is any number then stops at the first number got
+#
+# # Check if string has letters
+# has_letters = any(char.isalpha() for char in text)
+# print(has_letters)  # True
+##the above line checks if there is any string then stops at the first number got
+#
+# # If both exist, remove numbers
+# if has_numbers and has_letters:
+#     cleaned = ''.join(char for char in text if not char.isdigit())
+#     print(cleaned)  # "user"
+#
+# # If both exist, remove letters
+# if has_numbers and has_letters:
+#     cleaned = "".join(char for char in text if not char.isalpha())
+#     print(int(cleaned))  # 123
+##have made a durable decoder gets
+#all numbers and letters separated and becomes a series
+national_id = "hu07snaa20070807"
+# checking for numbers in the given text
+check_numbers = list(filter(str.isdigit,  national_id))
+print(check_numbers)#a list of numbers  in str type
+#the numbers only  in the text given
+onlyynumbers=int("".join(check_numbers))
+print((onlyynumbers))#have made it a one form of numbers
+# the_list_numbers=[int(num) for num in check_numbers]
+# print(the_list_numbers)#a list of numbers int type
+md_list_letters=list(filter(str.isalpha,national_id))
+print(md_list_letters)
+#just a combined string
+onlyystr=("".join(md_list_letters))
+print(onlyystr)
